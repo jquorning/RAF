@@ -1,0 +1,12 @@
+name = "ruby_in_ada"
+description = "Ruby functionality in Ada packages"
+version = "0.1.0-dev"
+
+authors = ["Jesper Quorning"]
+maintainers = ["Jesper Quorning <jesper.quorning@gmail.com>"]
+maintainers-logins = ["jquorning"]
+licenses = "MIT OR Apache-2.0"
+website = ""
+tags = ["ada", "ruby", "vm", "rad"]
+
+executables = ["test_ria"]
