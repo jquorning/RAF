@@ -9,7 +9,7 @@ is
 
    type Integer is new Standard.Integer;
    type Float   is new Standard.Long_Float;
-   type String  is neew Standard.String;
+   type String  is new Standard.String;
    
    procedure New_Symbol  (Name : String);
    procedure New_String  (Item : String);
