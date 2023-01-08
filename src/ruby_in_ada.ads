@@ -1,6 +1,6 @@
 package Ruby_In_Ada
 is
-   type Object is new Integer;
+   type Object is private;
    
    Topic_Access : access Object := null;
 
@@ -15,5 +15,9 @@ is
    procedure New_String  (Item : String);
    procedure New_Integer (Value : Integer);
    procedure New_Float   (Value : Float);
+
+private
+
+   type Object is null record;
 
 end Ruby_In_Ada;
